@@ -790,7 +790,7 @@
 老大问「有没有交敏感数据」→ 全量核查后修了一处真泄露：
 
 - **文件内容干净**：11 个 PR 文件 + 老大自己传的 measure.py/README/results-*.json 全文扫过，无 token/密钥/邮箱/IP/用户名/个人盘路径（命中全是 "tokens" 计数、版本号、127.0.0.1）。
-- **真窟窿**：API/网页建的提交署名邮箱=真实 QQ 邮箱（813386937@qq.com），GitHub「邮箱隐私」开关对建提交不生效 → 已把 6 个提交重写为 kxyct@users.noreply.github.com（正文/日期/树全不变，只改署名）。重写后：main=ab1f95cc、bench 分支=c9a5e214、kxyct-patch-1=a2bed0aa（上节写的 3c81b598/a35657cf 已被这次重写取代，映射：d238df0e→708ecae3, 8a526c02→83df9a50, 3d8a9b77→a67e1de4, 3c81b598→ab1f95cc, a35657cf→c9a5e214, e15bd2da→a2bed0aa）。engine-console 仓库本来就是 noreply 没泄露。旧 qq 提交成孤儿对象，GitHub 会自行回收。PR#3956 head 自动跟到新提交，仍 11 文件 mergeable=true（匿名 API 实测）。
+- **真窟窿**：API/网页建的提交署名邮箱=真实 QQ 邮箱（**已隐去，原文见 git 历史前的备份；2026-10-25 脱敏**），GitHub「邮箱隐私」开关对建提交不生效 → 已把 6 个提交重写为 kxyct@users.noreply.github.com（正文/日期/树全不变，只改署名）。重写后：main=ab1f95cc、bench 分支=c9a5e214、kxyct-patch-1=a2bed0aa（上节写的 3c81b598/a35657cf 已被这次重写取代，映射：d238df0e→708ecae3, 8a526c02→83df9a50, 3d8a9b77→a67e1de4, 3c81b598→ab1f95cc, a35657cf→c9a5e214, e15bd2da→a2bed0aa）。engine-console 仓库本来就是 noreply 没泄露。旧 qq 提交成孤儿对象，GitHub 会自行回收。PR#3956 head 自动跟到新提交，仍 11 文件 mergeable=true（匿名 API 实测）。
 - **撤回法**：把三个 ref 再 force PATCH 回旧 sha 即完全还原（旧对象还在）。
 - **新坑（都实测）**：① gh api 布尔参数必须 -F 不能 -f（-f 发字符串 422）；② PATCH 分支换历史要 force=true；③ 建提交时 parents 给漏会**默认挂到当前分支尖**（静默把链挂错，不报错！）——map 存短 sha 查全 sha 就是这个坑；④ 单提交 API 的 tree 在 .commit.tree.sha，顶层 .tree 是数组不是对象；⑤ 会话 Bash 的 cwd 会漂回 aigz 根（脚本一律 process.chdir 或绝对路径）。
 
