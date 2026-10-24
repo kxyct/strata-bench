@@ -1,0 +1,33 @@
+{
+ "results": [
+  {
+   "name": "A1",
+   "ok": false
+  },
+  {
+   "name": "B1",
+   "ok": false
+  },
+  {
+   "name": "A2",
+   "ok": false
+  },
+  {
+   "name": "B2",
+   "ok": false
+  }
+ ],
+ "verdict": "数据不全（有段失败）— 看失败段的记录定性下结论",
+ "4k_sha1": {
+  "A1": null,
+  "A2": null,
+  "B1": null,
+  "B2": null
+ },
+ "chunk": {
+  "A1": null,
+  "A2": null,
+  "B1": null,
+  "B2": null
+ }
+}

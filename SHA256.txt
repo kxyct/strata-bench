@@ -1,0 +1,3 @@
+e14e0eb6569facda3c7aad46eef80c7bc1a1aa25ae3c4f81f5d3fb8200709a40 *strata-windows-x64-cuda12.zip
+e40bce7a2cfe47ea42d3f2af1e0adb92d14b8c02a29107c5a309b2cb518f5f52 *strata-windows-x64-hip.zip
+a29bda047f440e6d2ce1649306c3a7047ba35df5a032097c7509d4494fa2b448 *strata-windows-x64.zip

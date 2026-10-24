@@ -1,0 +1,1900 @@
+{
+ "a": "D:/Strata/Strata-data/models/IQ3_XXS/Qwen3.8-Flash-Next-GSQ-RCO-IQ3_XXS-00001-of-00002.gguf",
+ "b": "D:/Strata/Strata-data/models/sc117_iq3_xxs/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-IQ3_XXS-00001-of-00002.gguf",
+ "a张量数": 1223,
+ "b张量数": 1223,
+ "共同": 1223,
+ "a整文件blake2b": "1b8f3f39faa8c10c8693a6c3a7dd75befbc0ebc5dea8410c19a884fa57ea0088",
+ "b整文件blake2b": "b69d063f5875cc7f7c96c13a6197dd24c4e888975f43ae06225c4e5a975071e9",
+ "only_in_a": [],
+ "only_in_b": [],
+ "差异个数": 144,
+ "相同个数": 1079,
+ "差异按族": {
+  "weight": 144
+ },
+ "输出头状态": {
+  "token_embd.weight": "未变",
+  "output.weight": "未变"
+ },
+ "差异清单": [
+  {
+   "name": "blk.0.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 20,
+   "b_dtype": 20,
+   "a_len": 471859200
+  },
+  {
+   "name": "blk.0.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.0.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 23,
+   "b_dtype": 8,
+   "a_len": 8355840,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.1.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.1.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.1.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 21,
+   "b_dtype": 8,
+   "a_len": 6758400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.10.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.10.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.10.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 13,
+   "b_dtype": 8,
+   "a_len": 10813440,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.11.attn_output.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.11.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.11.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.12.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.12.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 42,
+   "b_dtype": 8,
+   "a_len": 460800,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.12.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.13.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.13.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 42,
+   "b_dtype": 8,
+   "a_len": 460800,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.13.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.14.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.14.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 42,
+   "b_dtype": 8,
+   "a_len": 460800,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.14.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 13,
+   "b_dtype": 8,
+   "a_len": 10813440,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.15.attn_output.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.15.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.15.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.16.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.16.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.16.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.17.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.17.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.17.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.18.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.18.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.18.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.19.attn_output.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.19.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.19.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 42,
+   "b_dtype": 8,
+   "a_len": 460800,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.2.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 20,
+   "b_dtype": 20,
+   "a_len": 471859200
+  },
+  {
+   "name": "blk.2.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.2.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 12,
+   "b_dtype": 8,
+   "a_len": 8847360,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.20.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.20.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 42,
+   "b_dtype": 8,
+   "a_len": 460800,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.20.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.21.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.21.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.21.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 21,
+   "b_dtype": 8,
+   "a_len": 6758400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.22.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.22.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.22.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 12,
+   "b_dtype": 8,
+   "a_len": 8847360,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.23.attn_output.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.23.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.23.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.24.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.24.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.24.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 21,
+   "b_dtype": 8,
+   "a_len": 6758400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.25.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.25.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.25.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.26.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.26.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.26.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 12,
+   "b_dtype": 8,
+   "a_len": 8847360,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.27.attn_output.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.27.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.27.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.28.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 20,
+   "b_dtype": 20,
+   "a_len": 471859200
+  },
+  {
+   "name": "blk.28.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.28.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.29.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 20,
+   "b_dtype": 20,
+   "a_len": 471859200
+  },
+  {
+   "name": "blk.29.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.29.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.3.attn_output.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.3.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.3.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 42,
+   "b_dtype": 8,
+   "a_len": 460800,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.30.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 20,
+   "b_dtype": 20,
+   "a_len": 471859200
+  },
+  {
+   "name": "blk.30.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.30.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.31.attn_output.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.31.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 20,
+   "b_dtype": 20,
+   "a_len": 471859200
+  },
+  {
+   "name": "blk.31.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.32.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 20,
+   "b_dtype": 20,
+   "a_len": 471859200
+  },
+  {
+   "name": "blk.32.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.32.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.33.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.33.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.33.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.34.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 20,
+   "b_dtype": 20,
+   "a_len": 471859200
+  },
+  {
+   "name": "blk.34.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.34.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.35.attn_output.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.35.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 20,
+   "b_dtype": 20,
+   "a_len": 471859200
+  },
+  {
+   "name": "blk.35.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.36.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.36.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.36.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.37.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 20,
+   "b_dtype": 20,
+   "a_len": 471859200
+  },
+  {
+   "name": "blk.37.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.37.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 23,
+   "b_dtype": 8,
+   "a_len": 8355840,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.38.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 20,
+   "b_dtype": 20,
+   "a_len": 471859200
+  },
+  {
+   "name": "blk.38.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.38.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.39.attn_output.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.39.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 20,
+   "b_dtype": 20,
+   "a_len": 471859200
+  },
+  {
+   "name": "blk.39.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.4.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 20,
+   "b_dtype": 20,
+   "a_len": 471859200
+  },
+  {
+   "name": "blk.4.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 42,
+   "b_dtype": 8,
+   "a_len": 460800,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.4.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 23,
+   "b_dtype": 8,
+   "a_len": 8355840,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.40.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.40.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.40.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.41.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.41.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.41.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 12,
+   "b_dtype": 8,
+   "a_len": 8847360,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.42.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 20,
+   "b_dtype": 20,
+   "a_len": 471859200
+  },
+  {
+   "name": "blk.42.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.42.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.43.attn_output.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.43.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 20,
+   "b_dtype": 20,
+   "a_len": 471859200
+  },
+  {
+   "name": "blk.43.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.44.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 20,
+   "b_dtype": 20,
+   "a_len": 471859200
+  },
+  {
+   "name": "blk.44.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.44.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.45.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.45.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.45.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 13,
+   "b_dtype": 8,
+   "a_len": 10813440,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.46.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 20,
+   "b_dtype": 20,
+   "a_len": 471859200
+  },
+  {
+   "name": "blk.46.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.46.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 14,
+   "b_dtype": 8,
+   "a_len": 12902400,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.47.attn_output.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 12,
+   "b_dtype": 8,
+   "a_len": 8847360,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.47.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 20,
+   "b_dtype": 20,
+   "a_len": 471859200
+  },
+  {
+   "name": "blk.47.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.5.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.5.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.5.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 23,
+   "b_dtype": 8,
+   "a_len": 8355840,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.6.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.6.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 42,
+   "b_dtype": 8,
+   "a_len": 460800,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.6.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 13,
+   "b_dtype": 8,
+   "a_len": 10813440,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.7.attn_output.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 13,
+   "b_dtype": 8,
+   "a_len": 10813440,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.7.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.7.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.8.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.8.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.8.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 23,
+   "b_dtype": 8,
+   "a_len": 8355840,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  },
+  {
+   "name": "blk.9.ffn_down_exps.weight",
+   "原因": "内容不同",
+   "a_dtype": 42,
+   "b_dtype": 42,
+   "a_len": 235929600
+  },
+  {
+   "name": "blk.9.ffn_down_shexp.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 20,
+   "b_dtype": 8,
+   "a_len": 921600,
+   "b_len": 1740800,
+   "a_dims": [
+    640,
+    2560
+   ],
+   "b_dims": [
+    640,
+    2560
+   ]
+  },
+  {
+   "name": "blk.9.ssm_out.weight",
+   "原因": "类型或尺寸不同",
+   "a_dtype": 23,
+   "b_dtype": 8,
+   "a_len": 8355840,
+   "b_len": 16711680,
+   "a_dims": [
+    6144,
+    2560
+   ],
+   "b_dims": [
+    6144,
+    2560
+   ]
+  }
+ ],
+ "判据": {
+  "1 张量名个数一致": true,
+  "2 差异个数 == 144": true,
+  "3 差异只在这4族": false,
+  "4 输出头/词表未变": true
+ }
+}

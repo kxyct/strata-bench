@@ -1,0 +1,22 @@
+{
+ "a": "D:/Strata/Strata-data/mtp/mtp-q2_0.gguf",
+ "b": "D:/Strata/Strata-data/mtp/mtp-q2_0.gguf",
+ "a张量数": 31,
+ "b张量数": 31,
+ "共同": 31,
+ "a整文件blake2b": "6625db8be8677558165f026f25021fa05a563c32556f7ea2f039fed594bf4718",
+ "b整文件blake2b": "6625db8be8677558165f026f25021fa05a563c32556f7ea2f039fed594bf4718",
+ "only_in_a": [],
+ "only_in_b": [],
+ "差异个数": 0,
+ "相同个数": 31,
+ "差异按族": {},
+ "输出头状态": {},
+ "差异清单": [],
+ "判据": {
+  "1 张量名个数一致": true,
+  "2 差异个数 == 0": true,
+  "3 差异只在这4族": true,
+  "4 输出头/词表未变": true
+ }
+}

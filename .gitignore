@@ -1,0 +1,22 @@
+# —— 不进版本库的东西（都是几百 MB 的历史副本或可再生的二进制）——
+new/
+stage-engine-0.1.45/
+engine-backup-0.1.44.1/
+old_engine_backup/
+Strata仓库/
+D散文件/
+dl-sc117/
+releases/
+
+# 二进制与压缩包
+*.zip
+*.exe
+*.bin
+*.safetensors
+*.gguf
+
+# 运行产物
+__pycache__/
+*.log
+*_server.log
+tmp_*.json

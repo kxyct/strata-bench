@@ -1,0 +1,52 @@
+[
+  {
+    "name": "v0.2.1.1",
+    "zipball_url": "https://api.github.com/repos/Niko1221/Strata/zipball/refs/tags/v0.2.1.1",
+    "tarball_url": "https://api.github.com/repos/Niko1221/Strata/tarball/refs/tags/v0.2.1.1",
+    "commit": {
+      "sha": "9ae93f7b1fe989d04a8e404d32cddaeeff10505f",
+      "url": "https://api.github.com/repos/Niko1221/Strata/commits/9ae93f7b1fe989d04a8e404d32cddaeeff10505f"
+    },
+    "node_id": "REF_kwDOUpvcvbJyZWZzL3RhZ3MvdjAuMi4xLjE"
+  },
+  {
+    "name": "v0.2.1",
+    "zipball_url": "https://api.github.com/repos/Niko1221/Strata/zipball/refs/tags/v0.2.1",
+    "tarball_url": "https://api.github.com/repos/Niko1221/Strata/tarball/refs/tags/v0.2.1",
+    "commit": {
+      "sha": "90767252f420e25223c739d604145ad15911d48b",
+      "url": "https://api.github.com/repos/Niko1221/Strata/commits/90767252f420e25223c739d604145ad15911d48b"
+    },
+    "node_id": "REF_kwDOUpvcvbByZWZzL3RhZ3MvdjAuMi4x"
+  },
+  {
+    "name": "v0.2.0-beta",
+    "zipball_url": "https://api.github.com/repos/Niko1221/Strata/zipball/refs/tags/v0.2.0-beta",
+    "tarball_url": "https://api.github.com/repos/Niko1221/Strata/tarball/refs/tags/v0.2.0-beta",
+    "commit": {
+      "sha": "3d1fb48090e8f2cefc22d7b5845fb7f5b71f33fa",
+      "url": "https://api.github.com/repos/Niko1221/Strata/commits/3d1fb48090e8f2cefc22d7b5845fb7f5b71f33fa"
+    },
+    "node_id": "REF_kwDOUpvcvbVyZWZzL3RhZ3MvdjAuMi4wLWJldGE"
+  },
+  {
+    "name": "v0.1.45",
+    "zipball_url": "https://api.github.com/repos/Niko1221/Strata/zipball/refs/tags/v0.1.45",
+    "tarball_url": "https://api.github.com/repos/Niko1221/Strata/tarball/refs/tags/v0.1.45",
+    "commit": {
+      "sha": "477ac13cbe8e582c20484871ce459d20d82df09d",
+      "url": "https://api.github.com/repos/Niko1221/Strata/commits/477ac13cbe8e582c20484871ce459d20d82df09d"
+    },
+    "node_id": "REF_kwDOUpvcvbFyZWZzL3RhZ3MvdjAuMS40NQ"
+  },
+  {
+    "name": "v0.1.44.1",
+    "zipball_url": "https://api.github.com/repos/Niko1221/Strata/zipball/refs/tags/v0.1.44.1",
+    "tarball_url": "https://api.github.com/repos/Niko1221/Strata/tarball/refs/tags/v0.1.44.1",
+    "commit": {
+      "sha": "296b59d2f73c8f04a805df29c2fa97655adace78",
+      "url": "https://api.github.com/repos/Niko1221/Strata/commits/296b59d2f73c8f04a805df29c2fa97655adace78"
+    },
+    "node_id": "REF_kwDOUpvcvbNyZWZzL3RhZ3MvdjAuMS40NC4x"
+  }
+]

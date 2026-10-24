@@ -1,0 +1,204 @@
+{
+ "tier": "4k",
+ "target_tokens": 4096,
+ "concurrent": 1,
+ "rounds": [
+  {
+   "tier": "4k",
+   "run": 1,
+   "concurrent": 1,
+   "round_wall_s": 7.99,
+   "clients": [
+    {
+     "idx": 0,
+     "nonce": "PAR-4k-r0-873144-333",
+     "wall_s": 7.99,
+     "prompt_tokens": 4187,
+     "completion_tokens": 256,
+     "cached_tokens": 0,
+     "finish_reason": "length"
+    }
+   ],
+   "total_generated": 256,
+   "slowest_wall_s": 7.99,
+   "aggregate_tok_s": 32.0,
+   "per_request_end_to_end_tok_s": [
+    32.0
+   ],
+   "per_request_median_e2e": 32.0,
+   "engine_prompt_lines": [
+    {
+     "kind": "prompt",
+     "line": "strata serve: prompt 4187 tokens = 0 reused + 4187 read in 4536 ms (923.1 tok/s), 128 generated in 2120 ms (60.4 tok/s), drafts accepted 57 of 79, 1 checkpoints",
+     "read_tokens": 4187,
+     "reused_tokens": 0,
+     "prompt_ms": 4536,
+     "prefill_tok_s": 923.1,
+     "gen_tokens": 128,
+     "decode_ms": 2120,
+     "decode_tok_s": 60.4
+    },
+    {
+     "kind": "prompt",
+     "line": "strata serve: prompt 4333 tokens = 4314 reused + 19 read in 158 ms (120.0 tok/s), 110 generated in 1141 ms (96.4 tok/s), drafts accepted 84 of 84, 1 checkpoints",
+     "read_tokens": 19,
+     "reused_tokens": 4314,
+     "prompt_ms": 158,
+     "prefill_tok_s": 120.0,
+     "gen_tokens": 110,
+     "decode_ms": 1141,
+     "decode_tok_s": 96.4
+    }
+   ],
+   "engine_hit_lines": [
+    {
+     "kind": "hit",
+     "line": "strata serve: decode expert cache hit rate: 64.4% (44104 hits / 68439 lookups); 1252 more read by the GPU over PCIe or from another GPU (1.8% of all 69691 routed)",
+     "expert_cache_hit_pct": 64.4
+    },
+    {
+     "kind": "hit",
+     "line": "strata serve: decode expert cache hit rate: 72.3% (37885 hits / 52381 lookups); 905 more read by the GPU over PCIe or from another GPU (1.7% of all 53286 routed)",
+     "expert_cache_hit_pct": 72.3
+    }
+   ],
+   "engine_decode_tok_s": [
+    60.4,
+    96.4
+   ],
+   "engine_median_decode_tok_s": 96.4,
+   "engine_median_prefill_tok_s": 923.1,
+   "engine_min_decode_tok_s": 60.4,
+   "expert_cache_hit_pct": 72.3
+  },
+  {
+   "tier": "4k",
+   "run": 2,
+   "concurrent": 1,
+   "round_wall_s": 7.24,
+   "clients": [
+    {
+     "idx": 0,
+     "nonce": "PAR-4k-r0-883138-333",
+     "wall_s": 7.24,
+     "prompt_tokens": 4187,
+     "completion_tokens": 256,
+     "cached_tokens": 0,
+     "finish_reason": "length"
+    }
+   ],
+   "total_generated": 256,
+   "slowest_wall_s": 7.24,
+   "aggregate_tok_s": 35.4,
+   "per_request_end_to_end_tok_s": [
+    35.4
+   ],
+   "per_request_median_e2e": 35.4,
+   "engine_prompt_lines": [
+    {
+     "kind": "prompt",
+     "line": "strata serve: prompt 4187 tokens = 0 reused + 4187 read in 4519 ms (926.5 tok/s), 256 generated in 2714 ms (94.3 tok/s), drafts accepted 170 of 173, 1 checkpoints",
+     "read_tokens": 4187,
+     "reused_tokens": 0,
+     "prompt_ms": 4519,
+     "prefill_tok_s": 926.5,
+     "gen_tokens": 256,
+     "decode_ms": 2714,
+     "decode_tok_s": 94.3
+    }
+   ],
+   "engine_hit_lines": [
+    {
+     "kind": "hit",
+     "line": "strata serve: decode expert cache hit rate: 77.0% (93765 hits / 121706 lookups); 1442 more read by the GPU over PCIe or from another GPU (1.2% of all 123148 routed)",
+     "expert_cache_hit_pct": 77.0
+    }
+   ],
+   "engine_decode_tok_s": [
+    94.3
+   ],
+   "engine_median_decode_tok_s": 94.3,
+   "engine_median_prefill_tok_s": 926.5,
+   "engine_min_decode_tok_s": 94.3,
+   "expert_cache_hit_pct": 77.0
+  },
+  {
+   "tier": "4k",
+   "run": 3,
+   "concurrent": 1,
+   "round_wall_s": 8.35,
+   "clients": [
+    {
+     "idx": 0,
+     "nonce": "PAR-4k-r0-892380-333",
+     "wall_s": 8.35,
+     "prompt_tokens": 4187,
+     "completion_tokens": 256,
+     "cached_tokens": 0,
+     "finish_reason": "length"
+    }
+   ],
+   "total_generated": 256,
+   "slowest_wall_s": 8.35,
+   "aggregate_tok_s": 30.7,
+   "per_request_end_to_end_tok_s": [
+    30.7
+   ],
+   "per_request_median_e2e": 30.7,
+   "engine_prompt_lines": [
+    {
+     "kind": "prompt",
+     "line": "strata serve: prompt 4187 tokens = 0 reused + 4187 read in 4547 ms (920.9 tok/s), 130 generated in 2122 ms (61.3 tok/s), drafts accepted 57 of 87, 1 checkpoints",
+     "read_tokens": 4187,
+     "reused_tokens": 0,
+     "prompt_ms": 4547,
+     "prefill_tok_s": 920.9,
+     "gen_tokens": 130,
+     "decode_ms": 2122,
+     "decode_tok_s": 61.3
+    },
+    {
+     "kind": "prompt",
+     "line": "strata serve: prompt 4333 tokens = 4182 reused + 151 read in 647 ms (233.3 tok/s), 110 generated in 1017 ms (108.2 tok/s), drafts accepted 84 of 84, 1 checkpoints",
+     "read_tokens": 151,
+     "reused_tokens": 4182,
+     "prompt_ms": 647,
+     "prefill_tok_s": 233.3,
+     "gen_tokens": 110,
+     "decode_ms": 1017,
+     "decode_tok_s": 108.2
+    }
+   ],
+   "engine_hit_lines": [
+    {
+     "kind": "hit",
+     "line": "strata serve: decode expert cache hit rate: 68.6% (50410 hits / 73432 lookups); 1235 more read by the GPU over PCIe or from another GPU (1.7% of all 74667 routed)",
+     "expert_cache_hit_pct": 68.6
+    },
+    {
+     "kind": "hit",
+     "line": "strata serve: decode expert cache hit rate: 78.8% (41674 hits / 52888 lookups); 626 more read by the GPU over PCIe or from another GPU (1.2% of all 53514 routed)",
+     "expert_cache_hit_pct": 78.8
+    }
+   ],
+   "engine_decode_tok_s": [
+    61.3,
+    108.2
+   ],
+   "engine_median_decode_tok_s": 108.2,
+   "engine_median_prefill_tok_s": 920.9,
+   "engine_min_decode_tok_s": 61.3,
+   "expert_cache_hit_pct": 78.8
+  }
+ ],
+ "summary": {
+  "rounds_ok": 3,
+  "concurrent": 1,
+  "median_aggregate_tok_s": 32.0,
+  "median_per_request_e2e_tok_s": 32.0,
+  "median_engine_decode_tok_s": 96.4,
+  "median_engine_prefill_tok_s": 923.1,
+  "median_hit_pct": 77.0,
+  "prompt_tokens": 4187
+ }
+}
